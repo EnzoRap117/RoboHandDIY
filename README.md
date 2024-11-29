@@ -11,7 +11,7 @@ ______________________________________________________________
 <b>Robohand Hardware:</b>
 
 STL files for 3D printing the robotic hand are located in the hardware folder. All parts are designed to be able to print on an A1 mini. It is recommended that you print the palm model and coupler mount using supports.
-Joint pegs should be printed with an aligned seam so it can be easily trimmed off for smooth rotation at the joints. The materials to build the LucidGlove are not included in this list, please refer to the LucidGloves github for more infromation.
+Joint pegs should be printed with an aligned seam so it can be easily trimmed off for smooth rotation at the joints. If there is a version of a model marked with "_1" at the end, use that instead. It is recommended that you use the .3mf file if it is provided. The materials to build the LucidGlove are not included in this list, please refer to the LucidGloves github for more infromation.
 
 <b>For building one stationary hand, you will need:</b>
 * 5x MG90S micro-servo motors
