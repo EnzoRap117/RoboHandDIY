@@ -1,5 +1,5 @@
 The Robohand is an ESP32-based prototype teleoperated robotic arm which uses LucidGloves as its mode of tracking finger position data. ESPNOW is used for wireless communication between the tracking device and robotic arm. The elbow joint is nonfunctional and still in development.
-This project uses LucidGloves prototype 4.1.
+This project uses LucidGloves prototype 4.1. running on a custom version of the code.
 
 <b>Information about and instructions for building the handtracking device can be found on the LucidVR github page:</b>
 https://github.com/LucidVR/lucidgloves
@@ -61,7 +61,7 @@ Joint pegs should be printed with an aligned seam so it can be easily trimmed of
 ______________________________________________________________
 <b> Robohand software </b>
 
-The code for the glove and the robotic hand can be found in the software folder. You first need to run the "Addresser" program on the robot arm's ESP32 to determine its MAC address before attempting to connect it to the glove; running the "Addresser" program on the
+The code for the tracking glove and the robotic hand can be found in the software folder. You first need to run the "Addresser" program on the robot arm's ESP32 to determine its MAC address before attempting to connect it to the glove; running the "Addresser" program on the
 ESP32 will make it print its MAC address to Serial.
 
 Each of the boards will continously run while powered. The robot arm should be powered before the is glove powered. Whenever the glove is connected to power, the fingers must be calibrated by forming a fist shape in order to stop the fingers on the robotic arm from jittering.
