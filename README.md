@@ -1,4 +1,4 @@
-The Robohand is an ESP32-based prototype teleoperated robotic arm which uses LucidGloves as its mode of tracking finger position data. ESPNOW is used for wireless communication between the tracking device and robotic arm. The elbow joint is nonfunctional and still in development.
+The RoboHand is an ESP32-based prototype teleoperated robotic arm which uses LucidGloves as its mode of tracking finger position data. ESPNOW is used for wireless communication between the tracking device and robotic arm. The elbow joint is nonfunctional and still in development.
 This project uses LucidGloves prototype 4.1. running on a custom version of the code.
 
 <b>Information about and instructions for building the handtracking device can be found on the LucidVR github page:</b>
