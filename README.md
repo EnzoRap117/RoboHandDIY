@@ -1,5 +1,5 @@
 The LucidArm is an ESP32-based prototype teleoperated robotic arm which uses LucidGloves as its mode of tracking finger position data. ESPNOW is used for wireless communication between the tracking device and robotic arm. The elbow joint is nonfunctional and still in development.
-This project uses LucidGloves prototype 4.1. running on a custom version of the code.
+This project uses LucidGloves prototype 4.1. running on a custom version of the code. Other than using LucidGloves as its mode of finger tracking, LucidArm is not associated with LucidVR. 
 
 <b>Information about and instructions for building the handtracking device can be found on the LucidVR github page:</b>
 https://github.com/LucidVR/lucidgloves
