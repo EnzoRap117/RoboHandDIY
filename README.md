@@ -51,7 +51,7 @@ Joint pegs should be printed with an aligned seam so it can be easily trimmed of
 * 2x small standoffs
 * <i>(unfinished)</i> 1x bottom plate
  
-<b>If you are building the forearm battery you will need:</b>
+<b>If you are building the forearm battery mount, you will need:</b>
 * 4x M2 screws
 * 1m of velcro strip
 * 1x battery holder body
