@@ -1,4 +1,4 @@
-The RoboHand is an ESP32-based prototype teleoperated robotic arm which uses LucidGloves as its mode of tracking finger position data. ESPNOW is used for wireless communication between the tracking device and robotic arm. The elbow joint is nonfunctional and still in development.
+The LucidArm is an ESP32-based prototype teleoperated robotic arm which uses LucidGloves as its mode of tracking finger position data. ESPNOW is used for wireless communication between the tracking device and robotic arm. The elbow joint is nonfunctional and still in development.
 This project uses LucidGloves prototype 4.1. running on a custom version of the code.
 
 <b>Information about and instructions for building the handtracking device can be found on the LucidVR github page:</b>
@@ -8,7 +8,7 @@ https://github.com/LucidVR/lucidgloves
 
 ______________________________________________________________
 
-<b>Robohand Hardware:</b>
+<b>LucidArm Hardware:</b>
 
 STL files for 3D printing the robotic hand are located in the hardware folder. All parts are designed to be able to print on an A1 mini. It is recommended that you print the palm model and coupler mount using supports.
 Joint pegs should be printed with an aligned seam so it can be easily trimmed off for smooth rotation at the joints. If there is a version of a model marked with "_1" at the end, use that instead. It is recommended that you use the .3mf file if it is provided. The materials to build the LucidGlove are not included in this list, please refer to the LucidGloves github for more infromation.
@@ -59,7 +59,7 @@ Joint pegs should be printed with an aligned seam so it can be easily trimmed of
 * 150x80mm of soft foam (recommended to use the lid to create an outline)
 
 ______________________________________________________________
-<b> Robohand software </b>
+<b> LucidArm software </b>
 
 The code for the tracking glove and the robotic hand can be found in the software folder. You first need to run the "Addresser" program on the robot arm's ESP32 to determine its MAC address before attempting to connect it to the glove; running the "Addresser" program on the
 ESP32 will make it print its MAC address to Serial.
