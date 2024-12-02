@@ -23,6 +23,7 @@ Joint pegs should be printed with an aligned seam so it can be easily trimmed of
 * 1x 5V power adapter (a 12 watt iPhone charger power adapter is recommended)
 * 2x 5V rechargeable batteries
 * 2x micro-USB wires (.25-.5m meters or less)
+* 10m nylon thread
   
 <i>(3d printed)</i>
 * 1x palm (left or right)
