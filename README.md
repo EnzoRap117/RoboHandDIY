@@ -66,7 +66,7 @@ ______________________________________________________________
 The code for the tracking glove and the robotic hand can be found in the software folder. You first need to run the "Addresser" program on the robot arm's ESP32 to determine its MAC address before attempting to connect it to the glove; running the "Addresser" program on the ESP32 will make it print its MAC address to Serial. Once the address is
 obtained, use it to replace to template MAC adress in the "_main" file of the "lucidgloves-firmware_custom" sketch.
 
-Each of the boards will continously run while powered. The robot arm should be powered before the is glove powered. Whenever the glove is connected to power, the fingers must be calibrated by forming a fist shape in order to stop the fingers on the robotic arm from jittering.
+Each of the boards will continously run while powered. The robot arm should be powered before the glove is connected to power. Whenever the glove is connected to power, the fingers must be calibrated by forming a fist shape in order to stop the fingers on the robotic arm from jittering.
 It might take several tries to get the fingers to calibrate correctly, this issue is not yet resolved.
 
 ______________________________________________________________
