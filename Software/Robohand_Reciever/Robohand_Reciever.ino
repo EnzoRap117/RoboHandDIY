@@ -3,6 +3,10 @@
 
     Refer to "One_Way_Comm_Test_RecieverForGlove" for more explanation
     as to how the data tranmission works
+
+    Redundant code for a forearm and wrist joint is included, but was cut
+    due to time constraints. They will be implemented in later versions of
+    this project.
 */
 #include <esp_now.h>
 #include <WiFi.h>
@@ -14,8 +18,8 @@ Servo ringServo;
 Servo middleServo;
 Servo indexServo;
 Servo thumbServo;
-Servo wristServo;
-Servo forearmServo;
+//Servo wristServo;
+//Servo forearmServo;
 
 Servo myServos[] = {thumbServo, indexServo, middleServo, ringServo, pinkyServo};
 int len = 5;
@@ -30,8 +34,8 @@ typedef struct struct_message {
     byte middleVal;
     byte ringVal;
     byte pinkyVal;
-    byte wristVal;
-    byte forearmVal;
+    //byte wristVal;
+    //byte forearmVal;
     //int GloveData[5];
 } struct_message;
 
@@ -76,22 +80,23 @@ void moveServos(){
 
   ringServo.write(myData.ringVal);
  
-  pinkyServo.write(myData.ringVal);
+  pinkyServo.write(myData.pinkyVal); // The pinky was incosistent during demos. Using ringVal here can hide the issue if it persists/
 
-  wristServo.write(myData.wristVal);
+  //wristServo.write(myData.wristVal);
 
-  forearmServo.write(myData.forearmVal);
+  //forearmServo.write(myData.forearmVal);
   
 }
 
 void setup() {
-  pinkyServo.attach(19); //27
-  ringServo.attach(18); //5
-  middleServo.attach(5); //18
-  indexServo.attach(17); //19
+//If the provided pins don't work, attempt swapping all pins with the commented pins
+  pinkyServo.attach(17); //19
+  ringServo.attach(5); //18
+  middleServo.attach(18); //5
+  indexServo.attach(19); //17
   thumbServo.attach(21);
-  wristServo.attach(5);
-  foreServo.attach(16);
+  //wristServo.attach(5);
+  //forearmServo.attach(16);
 
   // Initialize Serial Monitor
   Serial.begin(115200);
