@@ -12,7 +12,7 @@ ______________________________________________________________
 <b>RoboHandDIY Hardware:</b>
 
 STL files for 3D printing the robotic hand are located in the hardware folder. All parts are designed to be able to print on an A1 mini. It is recommended that you print the palm model and coupler mount using supports.
-Joint pegs should be printed with an aligned seam so it can be easily trimmed off for smooth rotation at the joints. If there is a version of a model marked with "_1" at the end, use that instead. It is recommended that you use the .3mf file if it is provided. The materials to build the LucidGlove are not included in this list, please refer to the LucidGloves github for more infromation.
+Joint pegs should be printed with an aligned seam so it can be easily trimmed off for smooth rotation at the joints. If there is a version of a model marked with "_1" at the end, use that instead. It is recommended that you use the .3mf file if it is provided. The materials to build the LucidGlove are not included in this list, please refer to the LucidGloves github for more information.
 
 <b>For building one stationary hand, you will need:</b>
 * 5x MG90S micro-servo motors
@@ -64,16 +64,16 @@ ______________________________________________________________
 <b> RoboHandDIY software </b>
 
 The code for the tracking glove and the robotic hand can be found in the software folder. You first need to run the "Addresser" program on the robot arm's ESP32 to determine its MAC address before attempting to connect it to the glove; running the "Addresser" program on the ESP32 will make it print its MAC address to Serial. Once the address is
-obtained, use it to replace to template MAC adress in the "_main" file of the "lucidgloves-firmware_custom" sketch.
+obtained, use it to replace to template MAC address in the "_main" file of the "lucidgloves-firmware_custom" sketch.
 
-Each of the boards will continously run while powered. The robot arm should be powered before the glove is connected to power. Whenever the glove is connected to power, the fingers must be calibrated by forming a fist shape in order to stop the fingers on the robotic arm from jittering.
+Each of the boards will continuously run while powered. The robot arm should be powered before the glove is connected to power. Whenever the glove is connected to power, the fingers must be calibrated by forming a fist shape in order to stop the fingers on the robotic arm from jittering.
 It might take several tries to get the fingers to calibrate correctly, this issue is not yet resolved.
 
 ______________________________________________________________
 <b> Wiring and Power </b>
 
-* Each of the ESP32 boards can be powered by a 5V rechargable battery with a cable connected directly to the mirco-USB port. The micro-servos should be powered by a separate 5V power adapter with a connection to the between the ground pin of the ESP32 and the ground wire of the leading to the adapter.
-* If you are using the uPesy ESP32 Wroom 38pin board, it is recommended you use the pins which are already being used in the reciever code for the servo signal wires.
+* Each of the ESP32 boards can be powered by a 5V rechargeable battery with a cable connected directly to the micro-USB port. The micro-servos should be powered by a separate 5V power adapter with a connection to the between the ground pin of the ESP32 and the ground wire of the leading to the adapter.
+* If you are using the uPesy ESP32 Wroom 38pin board, it is recommended you use the pins which are already being used in the receiver code for the servo signal wires.
 * Jumper wires can be used to connect the servo and board if female header pins are soldered to the board, but it is a tight fit. 
 
 
