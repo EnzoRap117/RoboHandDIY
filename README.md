@@ -1,4 +1,4 @@
-RoboHandDIY is an ESP32-based robotic arm which uses LucidGloves as its mode of tracking finger position data. ESPNOW is used for wireless communication between the glove and arm. Presently, the arm can replicate forearm rotation, wrist flexion, and finger movements. 
+RoboHandDIY is an ESP32-based robotic arm which uses LucidGloves as its mode of tracking finger position data. ESPNOW is used for wireless communication between the glove and arm. Presently, the arm can replicate finger movements with plans to add wrist actuation and forearm rotation in later versions.
 
 This project uses LucidGloves prototype 4.1 running on a modified version of the code. Other than using LucidGloves as its mode of finger tracking, this project is not associated with LucidVR. 
 
