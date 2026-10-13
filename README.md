@@ -76,6 +76,12 @@ ______________________________________________________________
 * If you are using the uPesy ESP32 Wroom 38pin board, it is recommended you use the pins which are already being used in the receiver code for the servo signal wires.
 * Jumper wires can be used to connect the servo and board if female header pins are soldered to the board, but it is a tight fit. 
 
+______________________________________________________________
+
+<b> Demo Video: </b>
+
+https://github.com/user-attachments/assets/581e829c-7d11-407b-b409-01d90318316a
+
 
 
 
