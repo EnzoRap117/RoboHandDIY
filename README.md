@@ -9,6 +9,12 @@ https://github.com/LucidVR/lucidgloves
 
 ______________________________________________________________
 
+<b> Demonstration: </b>
+
+<img width="360" height="640" alt="Glove Control Rock Paper Scissors" src="https://github.com/user-attachments/assets/d82cd27c-6b23-4d46-91c6-fac7f0be87c0" />
+
+______________________________________________________________
+
 <b>RoboHandDIY Hardware:</b>
 
 STL files for 3D printing the robotic hand are located in the hardware folder. All parts are designed to be able to print on an A1 mini. It is recommended that you print the palm model and coupler mount using supports.
@@ -76,11 +82,7 @@ ______________________________________________________________
 * If you are using the uPesy ESP32 Wroom 38pin board, it is recommended you use the pins which are already being used in the receiver code for the servo signal wires.
 * Jumper wires can be used to connect the servo and board if female header pins are soldered to the board, but it is a tight fit. 
 
-______________________________________________________________
 
-<b> Demo Video: </b>
-
-https://github.com/user-attachments/assets/581e829c-7d11-407b-b409-01d90318316a
 
 
 
