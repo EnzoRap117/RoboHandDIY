@@ -1,4 +1,9 @@
 //#define comm ICommunication*;
+/*
+    Redundant code for a forearm and wrist joint is included, but was cut
+    due to time constraints. They will be implemented in later versions of
+    this project.
+*/
 
 #define ALWAYS_CALIBRATING CALIBRATION_LOOPS == -1
 
@@ -23,8 +28,8 @@
     byte middleVal;
     byte ringVal;
     byte pinkyVal;
-    byte wristVal;
-    byte forearmVal;
+    //byte wristVal;
+    //byte forearmVal;
     //int GloveArray[5];
   } struct_message;
 
@@ -120,8 +125,8 @@ void loop() {
     myData.middleVal = map(fingerPose[2], 0, 4095, 0, 180);
     myData.ringVal = map(fingerPose[3], 0, 4095, 0, 180);
     myData.pinkyVal = map(fingerPose[4], 0, 4095, 0, 180);
-    myData.wristVal = map(analogRead(PIN_WRIST), 0, 4095, 0, 180);
-    myData.foreVal = map(analogRead(PIN_FOREARM), 0, 4095, 0, 180);
+    //myData.wristVal = map(analogRead(PIN_WRIST), 0, 4095, 0, 180);
+    //myData.foreVal = map(analogRead(PIN_FOREARM), 0, 4095, 0, 180);
     //memcpy(myData.GloveArray, fingerPose, sizeof(myData.GloveArray));
     
     
